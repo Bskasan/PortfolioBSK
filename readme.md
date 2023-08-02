@@ -25,3 +25,16 @@
 - project page
 
 
+
+***TO-DOs***
+
+- Add contact icons for each one
+- Style contact sections
+- Add Projects section
+- Add scrolling animation to Project 
+- Add Experience section
+- Add Add scrolling animation to Experience 
+- Make your website accessible and responsive at the end. 
+- Look for bugs and deploy your portfolio.
+
+
