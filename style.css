@@ -35,19 +35,31 @@ nav .logo {
 }
 
 section.main-section {
-  width: 50vw;
+  display: flex;
+}
+
+.info-skill-container{
+    display: flex;
+    flex-direction:column;
 }
 
 .info-container {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .skills-container {
-    padding: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
   font-size: 5rem;
+}
+
+h2{
+    text-align: center;
+    
 }
 
 p.title {
@@ -59,8 +71,15 @@ p.focused-areas {
 }
 
 .rounded-skill-gradient {
-  border-width: 1px;
+  padding: 1px;
+  margin: 5px;
+  border-radius: 50% 20% / 10% 40%;
+  border-width: 2px;
   border-style: solid;
   border-image: linear-gradient(to right, var(--lightpurple), var(--midpurple))
     1;
+}
+
+.summary{
+    margin: auto;
 }
