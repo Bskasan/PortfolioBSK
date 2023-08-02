@@ -92,8 +92,32 @@ p.focused-areas {
   line-height: 1.5rem;
 }
 
+.summary p{
+  margin-left: 15px;
+}
+
 .contact {
   height: 2rem;
   margin-top: 10%;
   text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .info-container .name {
+    margin-bottom: 10px;
+    font-size: 3rem;
+  }
+
+  p.title {
+    font-size: 1.5rem;
+  }
+
+  p.focused-areas {
+    font-size: 1rem;
+  }
+
+  section.main-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
