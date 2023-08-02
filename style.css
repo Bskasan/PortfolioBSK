@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! VARIABLES */
+:root {
+    --darkblue: #0C134F;
+    --midblue: #1D267D;
+    --midpurple: #5C469C;
+    --lightpurple: #D4ADFC;
+}
+
+body{
+    background-color: var(--darkblue);
+}
+
+nav{
+    text-align: center;
+}
+
+nav .logo{
+    border: 2px solid var(--lightpurple);
+    border-radius: 10px;
+    color: var(--lightpurple);
+    margin: 5px auto;
+    width: 50px;
+}
