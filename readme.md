@@ -30,6 +30,7 @@
 ***TO-DOs***
 
 - Change the location of skills section.
+- Styling and Addint Projects Button
 - Add contact icons for each one
 - Style contact sections
 - Add Projects section
