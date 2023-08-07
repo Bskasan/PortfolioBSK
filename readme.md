@@ -29,7 +29,7 @@
 
 ***TO-DOs***
 
-- Change the location of skills section.
+<del>- Change the location of skills section. </del>
 - Styling and Addint Projects Button
 - Add contact icons for each one
 - Style contact sections
