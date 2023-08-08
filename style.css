@@ -87,6 +87,11 @@ section.main-section {
   margin-top: 15px;
 }
 
+.contact i:hover{
+  cursor: pointer;
+  color: white;
+}
+
 .skills-container {
   padding: 1rem;
   display: flex;
