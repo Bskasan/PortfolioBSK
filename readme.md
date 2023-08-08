@@ -29,8 +29,8 @@
 
 ***TO-DOs***
 
-<del>Change the location of skills section. </del>
-<del>Styling and Addint Projects Button.</del>
+<del>Change the location of skills section. </del><br>
+<del>Styling and Addint Projects Button.</del><br>
 - Add Experience Button
 - Create buttons div
 - Style experience button like projects.

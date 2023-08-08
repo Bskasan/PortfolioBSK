@@ -57,25 +57,29 @@ section.main-section {
 
 .about-me {
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns:30% 30% 30%;
+  margin-left: 1vw;
+  gap: 0.2rem;
 }
 
-.project-btn {
+.btn {
   background-color: var(--darkblue);
   color: var(--lightpurple);
   border: 2px solid var(--lightpurple);
   border-radius: 10px;
-  height: 4vw;
-  
-  
+  height: 3vw;
+  width: 10vw;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-.project-btn:hover{
+.btn:hover{
   cursor: pointer;
   background-color: var(--lightpurple);
   color: var(--darkblue);
   border-color: var(--midblue);
   transition: 300ms ease-in-out;
+  
 }
 
 .contact {
@@ -121,6 +125,7 @@ p.focused-areas {
 
 .summary {
   margin: auto;
+  margin-bottom: 10px;
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
@@ -147,4 +152,26 @@ p.focused-areas {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .about-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .btn{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    width: 100px;
+    height: 50px;
+  }
+
+  
+
+  .info-container .name{
+    font-size: 2rem;
+  }
+  
+
+
 }
