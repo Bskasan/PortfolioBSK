@@ -10,12 +10,13 @@
   --midblue: #1d267d;
   --midpurple: #5c469c;
   --lightpurple: #b46ff8;
+  --backgroundcolor:  rgb(230, 226, 226);
 }
 
 body {
-  background-color: whitesmoke;
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--darkblue);
+  background-color:var(--backgroundcolor)!important;
+  font-family: Arial, Helvetica, sans-serif!important;
+  color: var(--darkblue)!important;
 }
 
 nav {
@@ -34,7 +35,7 @@ nav .logo {
 }
 
 section.main-section {
-  display: none;
+  display: flex;
 }
 
 .info-contact-container {
@@ -62,7 +63,7 @@ section.main-section {
   gap: 0.2rem;
 }
 
-.btn {
+.my-btn {
   background-color: white;
   color: var(--lightpurple);
   border: 2px solid var(--lightpurple);
@@ -73,10 +74,10 @@ section.main-section {
   font-weight: 600;
 }
 
-.btn:hover {
+.my-btn:hover {
   cursor: pointer;
   background-color: var(--lightpurple);
-  color: var(--darkblue);
+  color: white;
   border-color: var(--midblue);
   transition: 300ms ease-in-out;
 }

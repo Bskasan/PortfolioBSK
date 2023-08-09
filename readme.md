@@ -31,8 +31,7 @@
 
 
 
-
-
+- Transition Link => https://codepen.io/sbchittenden/pen/YNVVgP 
 - Style contact sections
 - Add Projects section
 - Add scrolling animation to Project 
