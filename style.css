@@ -81,13 +81,13 @@ section.main-section {
   transition: 300ms ease-in-out;
 }
 
-.contact { 
+.contact {
   height: 2rem;
   text-align: center;
   margin-top: 15px;
 }
 
-.contact i:hover{
+.contact i:hover {
   cursor: pointer;
   color: white;
 }
@@ -166,8 +166,8 @@ p.focused-areas {
   .btn {
     margin-bottom: 10px;
     font-size: 1rem;
-    width: 100px; 
-    height: 60px 
+    width: 100px;
+    height: 60px;
   }
 
   .info-container .name {
@@ -176,7 +176,31 @@ p.focused-areas {
 }
 
 /* ! --------------------- PROJECTS -----------------------*/
-.projects{
-   
+.projects {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card{
+  transition: 200ms ease-in-out;
+}
+
+.card:hover{
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.big-projects {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.small-projects {
+  margin: 1rem auto;
+  text-align: center;
 }
 /* ! --------------------- EXPERIENCES --------------------*/
